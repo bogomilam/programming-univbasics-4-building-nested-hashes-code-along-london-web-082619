@@ -5,14 +5,14 @@ def fourth_challenge
       :matriarch => {name: "Lady Montague", age: "54"},
       :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
-        { :name "Benvolio",
-          :age "17",
-          :attitude "worried"
+        { name: "Benvolio",
+          age: "17",
+          attitude: "worried"
         },
         {
-          :name "Mercutio",
-          :age "18",
-          :attitude "hot-headed"
+          name: "Mercutio",
+          age: "18",
+          attitude: "hot-headed"
         }
       ]
    }, 
@@ -22,9 +22,9 @@ def fourth_challenge
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
         {
-          :name "Steven",
-          :age "30",
-          :attitude "confused"
+          name: "Steven",
+          age: "30",
+          attitude: "confused"
         },
         {
           name: "Nurse",
